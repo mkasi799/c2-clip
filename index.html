@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Virtual Meeting Room</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+   <div id="startScreen">
+
+    <div id="startContent">
+
+        <h2>
+            Click below to view the clip.
+        </h2>
+
+        <button id="continueButton">
+            Continue
+        </button>
+
+    </div>
+
+</div>
+
+    </div>
+
+    <div class="meeting-interface">
+
+        <div class="top-ui">
+            Virtual Meeting Room
+        </div>
+
+        <div class="meeting-room">
+
+            <div class="video-box">
+
+                <video id="p1Video" muted playsinline preload="auto">
+
+                    <source src="p1.mp4" type="video/mp4">
+
+                </video>
+
+                <div class="mic-overlay">
+                    <img src="mic-muted.svg">
+                </div>
+
+            </div>
+
+            <div class="video-box">
+
+                <video id="p2Video" playsinline preload="auto" controlslist="nodownload noplaybackrate">
+                    <source src="p2_condition1.mp4" type="video/mp4">
+                </video>
+
+                <div class="mic-overlay" id="speakerMic">
+                    <img src="mic-muted.svg">
+                </div>
+
+            </div>
+
+            <div class="video-box">
+
+                <video id="p3Video" muted playsinline preload="auto">
+
+                    <source src="p3.mp4" type="video/mp4">
+
+                </video>
+
+                <div class="mic-overlay">
+                    <img src="mic-muted.svg">
+                </div>
+
+            </div>
+
+            <div class="video-box">
+
+                <video id="p4Video" muted playsinline preload="auto">
+
+                    <source src="p4.mp4" type="video/mp4">
+
+                </video>
+
+                <div class="mic-overlay">
+                    <img src="mic-muted.svg">
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="bottom-ui">
+
+            <div class="control">
+
+                <img src="mic.svg" class="icon">
+
+                <span>Mute</span>
+
+            </div>
+
+            <div class="control">
+
+                <img src="users.svg" class="icon">
+
+                <span>Participants (5)</span>
+
+            </div>
+
+            <div class="control leave">
+
+                Leave
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
