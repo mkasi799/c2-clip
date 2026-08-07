@@ -55,7 +55,7 @@ continueButton.addEventListener("click", () => {
             speakerMic.style.display = "none";
         }
 
-    }, 5000);
+    }, 6000);
 
     /* P2 STOPS TALKING */
 
@@ -65,7 +65,7 @@ continueButton.addEventListener("click", () => {
             speakerMic.style.display = "block";
         }
 
-    }, 10000);
+    }, 16000);
 
 });
 
